@@ -11,6 +11,7 @@ const sumWhile = (list) => {
   let i = 0;
   while (i < list.length) {
     sum += list[i];
+    i++;
   }
   return i;
 }
