@@ -13,7 +13,7 @@ const sumWhile = (list) => {
     sum += list[i];
     i++;
   }
-  return i;
+  return sum;
 }
 
 const sumRecursion = (list, i) => {
